@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.search {
+	border-bottom: 1px solid #DDD;
+	text-align: center;
+}
+
+.search .input {
+	background: url(./images/bogi.png) #FFF 8px center no-repeat;
+	border: 1px solid #DDD;
+	color: #333;
+	cursor: pointer;
+	font: 13px 'NanumGothicWeb';
+	margin: 10px 0;
+	padding: 7px 7px 5px 29px;
+	width: 232px;
+}
+
+.search .input:hover {
+	background: url(./images/bogi.png) #FFF 6px center no-repeat;
+	border: 3px solid #999;
+	padding: 5px 7px 3px 27px;
+	width: 230px;
+}
+.search .submit    { display:none; }

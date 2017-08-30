@@ -14,4 +14,9 @@ public class MainController {
 		return "index";
 	
  }
+	@RequestMapping(value="/loginform")
+	public String login() {
+		return "loginform";
+	}
+	
 }
